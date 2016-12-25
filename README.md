@@ -4,11 +4,11 @@ simple breakout board for TI FDC1004
 
 You can find the datasheet at http://www.ti.com/product/fdc1004
 
-the FDC1004 is only 3.3V compatible.    
-the breakout has a 3.3V LDO Regulator and Level-shifting for the I2C lines.
-so its 5V compatible.
+the FDC1004 IOs are 3.3V only.  
+for 5V compatibility the breakout has a 3.3V Regulator and
+level-shifting for the I2C lines.
 
-<!-- i have also written a [arduino library for this device](#TODO). -->
+i have also written a [arduino library for this device](https://github.com/s-light/slight_FDC1004).
 
 
 <!-- License info -->
